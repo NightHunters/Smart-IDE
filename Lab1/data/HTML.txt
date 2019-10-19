@@ -1,0 +1,69 @@
+第209条	Separate HTML for selection inner corners from remainder of selection
+第326条	Fix PHP in HTML style tags
+第327条	Update html service. Fix #80600
+第539条	Use HTMLelement.prototype.remove
+第601条	[XML] Use the same HTML language configuration for XML
+第1000条	update html & json services
+第1507条	Html semantic selection. Part of #65925
+第1530条	Custom html data refactor
+第1566条	Handle workspace folder reading for custom HTML data
+第1573条	Remove outdated ionic/angular support in HTML
+第1590条	HTML Snippet: Consistent void tags
+第1635条	Strict null checking  for node/storage browser/ui/dataTree and  browser/htmlContent
+第1776条	html.experimental.custom.tags/attributes for Microsoft/vscode#62976
+第1819条	Fixes #63095 - html encode hrefs in marked strings (for REAL this time)
+第1830条	Fixes #63095 - html encode hrefs in marked strings
+第2124条	Update extensions/html/snippets/html.snippets.json
+第2628条	Support underscore in html attribute names
+第2721条	Use HTML headings for viewlet titles.
+第3143条	HTML path refactor
+第3256条	Allow css emmet completions when abbr contains period or errors in css blocks in html files 
+第3289条	Html path completion. Fix #2037
+第3342条	Fix html css launch config
+第3583条	HTML code completion for scripts
+第3591条	Use html on enter rules in php 
+第3599条	Copy OnEnter rules from html to php #39142
+第3682条	Fix 38384 selectAll Command for Webviews (previewHTML)
+第3717条	Start moving html ext to strict mode compile
+第4167条	Find in webview based views (html preview, release notes, extension editor)
+第4224条	Continue refactoring html content renderer
+第4236条	Continue html renderer cleanup
+第4248条	Remove Unused Html Content Renderer Extensibility
+第4290条	Add `.rhtml` to html extension
+第4380条	Adds "babel" support to <script> tags in html
+第4407条	Update ts/js grammars in order to support colorizing JSX components differently from standard HTML tags
+第4426条	Treat Script Tag Contents in HTML as JS
+第4526条	Tweak HTML Preview Styling 
+第4598条	Initial Prototype of Find in HtmlPreviewPart
+第4634条	Fixed #14311 by adding preserveFocus parameter to vscode.previewHtml
+第4693条	Use common TS install for both the TS Extension and Html Extension
+第4732条	upgrade telemetry package used by json and html extensions
+第4757条	correct boundary for embedded languages in HTML
+第4894条	xhtml is a profile not syntax in emmet
+第4917条	Add command to post a message to an html preview document
+第4919条	Add New Context For When an Html Preview Is Focused
+第4940条	Fix markdown syntax highlighting for script or style html elements with blank lines
+第5032条	shrinkwrap update for css, json and html
+第5089条	Extract settings strings in html extension
+第5195条	Support HTML comments in Markdown
+第5232条	experiment with html-zone
+第5281条	Improve Markdown Html Block Colorization
+第5301条	Use blankline to delimit html block in markdown colorization
+第5307条	Fix colorization of html prefixed by spaces in markdown files
+第5320条	HTML/Razor/Handlebars as extension
+第5331条	[jade/pug] Support for HTML comments
+第5357条	Remove workerMainCompatibility.html #11306
+第5561条	Add doctype to webview html
+第5648条	Add a widget for HTML select element
+第5687条	C# needs to be written using HTML codes or escaped
+第5762条	Adding descriptions of Ionic HTML tags
+第5766条	Ionic HTML Intellisense
+第5772条	Associate .xhtml with HTML language mode
+第5851条	html preview part and command
+第5882条	[html] typos of angularjs attributes(directives)
+第5932条	[html] Remove dead code in html.ts
+第5940条	[html] Add documentationLabel's for HTML tags
+第5947条	add <picture> element to HTML/CSS intellisense and syntax highlighting
+第5967条	Update HTML highlighting & IntelliSense
+第5982条	Add HTML aria attribute autocomplete
+第6006条	Add text/ng-template to the HTML mime types

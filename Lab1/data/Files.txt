@@ -1,0 +1,445 @@
+第26条	Improved logging for file rename event
+第33条	Add tasks config in workspace file
+第48条	Config option to separate or hide untracked files (addresses #35480)
+第52条	[file-explorer] Adds Duplicate command to key binding and context menu
+第84条	Automatically adapt to windows: "Color Theme", "File Icon Theme", "User Snippets".
+第87条	Add multiselection support when installing extensions from VSIX files
+第108条	Use schemastore catalog to add schema associations for json files
+第117条	Add quick-open support for relative file paths
+第135条	Fix a bug for not warn properly when file to create already exists
+第146条	Add support for predefined variable ${fileDirbasename}
+第171条	inspect all and cpu profile
+第181条	Add relativeFileNoExtension
+第185条	gulpfile.babel.js support #3043
+第186条	added "file nesting" support, based on file naming
+第187条	Allow problem matchers to change the filePrefix
+第217条	italic link , updated ReadMe file.
+第218条	Remove executable bits from non-executable files
+第219条	EOL User Setting should be able to be set per language or file type
+第255条	Make changes to tasks to allow tasks from User Settings and workspace file
+第277条	Refactor file dialog service to fix layer breaker
+第285条	Update extensionsFileTemplate.ts to use HTTPS URL
+第299条	save all & commit option now commits all files (fixed #80837)
+第336条	Allow `file` and `vscode-remote` schemes for links in markdown content
+第340条	Fix activation of linters on unopened files caused by markdown plugin
+第399条	trailing commas only for settings files
+第403条	web - fix buildfiles
+第498条	Param typo in locateFile.ts: Absoulte -> Absolute
+第519条	onIsCaseInsenitiveFileSystem is a typo.
+第522条	Support staging for new files
+第547条	Fix-75259 - Interact with files in search results 
+第627条	Add '.ent' and '.mod' file extensions  for the XML language
+第633条	Update 'vs-minimal' file icon theme
+第653条	files - allow stream for writeFile
+第683条	Fix #76885 - Add icons for Configure File Association
+第691条	Fix-75259 - Interact with files in search results
+第711条	Fix-76662 add *.hpp.in to the file.associations in vscode out of the box
+第714条	Remove snakemake files from being classified as Python files
+第732条	Fix-76315 add *.podspec to file associations 
+第742条	Adopt settings and keybindings to use user data filesystem provider
+第754条	Feature - Suggesting filename based on the content in the file
+第777条	File watcher: use polling for wsl1
+第794条	Support opening folder, workspace and file via commands in web
+第807条	Add availableFileSystems to save as
+第822条	Simplify incrementFileName
+第834条	Open file and folder commands in web companion
+第849条	Add the .rbi file extension as a Ruby file type
+第851条	Fix Recent list in dock does not show recent files/folders #74788
+第855条	Always focus explorer viewlet while creating new file/folder
+第867条	updated readme file in update branch
+第869条	mark .config/git/config as properties file
+第881条	Use file service to update content
+第924条	debt - do not abuse textfileservice
+第949条	Allow multi-line comment auto-closing for C++ files
+第960条	Fix docblock for FileSystemError
+第991条	Fixes #72683: Consider extra lines below the file when computing mini…
+第1004条	Re-use isValidBasename in file picker
+第1047条	File picker auto complete shouldn't include trailing slash
+第1049条	update breadcrumb on case-only file rename
+第1052条	Fix file system providers from extensions to resolve save conflicts
+第1056条	Handle user input errors in filepicker
+第1065条	_validateShellPaths: skip file exists check for empty strings
+第1070条	Temporarily resolve "command palette, color theme, file icon theme, user segment" and webview focus conflicts.
+第1071条	Fix-72370 Opening large file when debugging freezes
+第1081条	Have linkComputer handle bold/italic links in markdown files
+第1089条	window - merge filesToOpen & filesToCreate
+第1096条	Provide API to get access to the workspace configuration file (#37421)
+第1100条	Implement file reading through file system provider
+第1111条	Makefile test case about the bug fix with "@,-,+" colorizing in the recipe
+第1115条	Add custom button to quick pick for file picker
+第1119条	Custom file nesting
+第1125条	Rewrite file saving code to use file system provider
+第1153条	fix link navigation to extended config file in tsconfig
+第1166条	CachedExtensionScanner using IFileService
+第1167条	fix-71570 Error when restoring a markdown preview for a file that has been deleted
+第1170条	Remove acquireFileService hack
+第1174条	output - use fileservice for watching
+第1176条	Implement file watcher for new file service
+第1177条	FindInFiles converted to command and accepting arguments
+第1191条	Fix #71465 - "find in files shortcut broken"
+第1231条	FileService2 - implement createFolder()
+第1247条	nodeless - lift file dialog service to /browser
+第1248条	Add only tracked files can be auto staged flag [Fix #70091]
+第1263条	Repair npm links across two files
+第1264条	File picker undo should work
+第1276条	Open vscode://file/<path> in vscode is broken. Fixes #69998
+第1278条	Unsaved files are opened in two windows when reopening vscode.
+第1279条	Unsaved files are opened in two windows when reopening vscode.
+第1297条	Fix #69972 - use fsPath for untitled schema files
+第1302条	Use TS's updateOpen api to batch file changes
+第1303条	Strict null check textFileService
+第1305条	Add validation messages to simple file picker
+第1345条	Prepend slash to path when suggesting filename
+第1358条	Add option to ignore file locally for git
+第1390条	update this file >> bootstrap-fork.js
+第1405条	Strict null check more terminal files
+第1442条	Makefile colorizing tests - handling variable expansion in a variable name
+第1446条	Treat Composer lock files as JSON by default
+第1462条	files - let copy/move of same file path be a no-op
+第1471条	Treat .swcrc file as json
+第1496条	Cleanup workbench.main file
+第1529条	Show the folder path a file is in, in title of the window
+第1544条	Improve file explorer indentation levels
+第1546条	fix: git.promptToSaveFilesBeforeCommit should not warn on unstaged files
+第1552条	Make files.exclude & files.watcherExclude overridable.
+第1569条	Add link check for markdown files
+第1576条	Search results for "UTF-8 with BOM" files shifted on first line by a character
+第1577条	Don't use 'window' in node/ files
+第1579条	Exclude/include commandsToSkipShell instead of butchering user settings file
+第1592条	Run active file with spaces PowerShell Core Support
+第1614条	Update: Use babel icon for babel.config.js file in seti theme
+第1620条	Converted another ~70 test files to strictNullChecks
+第1621条	Makefile grammar updating: tests are updated about the handling @, - and +
+第1623条	Converted about 25 *.test.ts files to --strictNullChecks (mostly automatically)
+第1664条	Fix run active file in terminal on paths with spaces under Windows
+第1677条	Enable strict null checking for files test
+第1685条	Fix search CRLF files with non-regex multiline search
+第1730条	Suppress display of end-of-file newline as blank line
+第1781条	Fix 63749 - Markdown, U+2028, and "Go to Symbol in File..."
+第1792条	Remove StartupWMClass from URL handler desktop file
+第1832条	Use <user-file-path> instead of aaaaaaaaaa
+第1878条	Added "Reload Window" menu item to file menu
+第1898条	Fix whitespace errors in markdown files
+第1899条	Update src/vs/workbench/services/files/electron-browser/fileService.ts
+第1921条	Update gulpfile.js
+第1936条	Update makefile colorize tests according to the latest grammar
+第1943条	pull edit reactor file
+第1984条	Adding PT/BR translation to the CONTRIBUTING.md file
+第1996条	Menu: Fix missing ampersand in File menu > Open Recent
+第2010条	 pt-br translation for the README file 
+第2072条	Fix webview file icon for release notes
+第2082条	Adding .tex files icon
+第2101条	Update file icons to use file type icon in small views
+第2114条	git: Open File command fix on clean tree
+第2140条	Add ability to reload a file icon theme without restarting the editor
+第2145条	Fixed #59395 - Emmet Syntax Profiles tag_nl produces no extra space
+第2148条	Fix #60002 Undo last commit: keep staged files
+第2167条	Fix for issue #27393 - UX: align file names when renaming
+第2188条	Update status bar when opening a binary file as text
+第2215条	Fixes for 58176: Middle clicking files in breadcrumbs explorer opens …
+第2257条	Open Workspace button in .code-workspace files, fixes #59305
+第2279条	Add display handling of files added by git add -N
+第2304条	Update file icons per file type
+第2311条	Added a try catch around pty spawn to handle nonexistant file
+第2319条	Add output channel for telemetry.log file
+第2321条	Avoid warning from URI.parse when url is file path
+第2324条	Provide file icons per file type
+第2369条	Cleanup bootstrap files
+第2377条	Use latest spdlog that has support for file names with non ascii character
+第2380条	Add smarter filename suggestions, #57528
+第2395条	Use file service to listen to changes
+第2397条	Functionality added for: open file in a new window except if the file's folder is opened
+第2439条	introduce fileDialog context
+第2459条	Check the path for spaces before sending. Avoids filenames to be inte…
+第2469条	Fix file.exclude for complex extensions
+第2526条	support opening file-uris
+第2540条	Append file extension to "Don't Show Again" menu item label
+第2543条	Fixing text when reverting changes for deleted file
+第2545条	Make sure prefix detection starts from start of the file name
+第2605条	Refactor simple widget editor config files
+第2627条	Preserve the revealed area after using "Open File" from git-diff editor (fix #53465)
+第2641条	Trimmed file search strings in the search menu
+第2669条	Add a reason attribute to filePUT and fileGET
+第2682条	add menu for `find in file` and add `search in file`.
+第2702条	Fix for #53710 adopt TS support for checking JSON files
+第2718条	Add buttons to go to extensions config files
+第2731条	Fix #48853 - Collapse newlines on files containing only newlines
+第2744条	Make it explicit that `deleteFile` will delete a folder recursively
+第2754条	Update gulpfile.vscode.js
+第2767条	Fix #51597 - move searching with absolute path queries out of search service and into openFileHandler
+第2780条	Improves support to Windows UNC files in a "yet-to-be-saved" state
+第2789条	Open readonly files as readonly editors
+第2790条	fileSystemProvider: isReadonly
+第2862条	Treat Xamarin .workbook files as markdown
+第2864条	Allowing to use 'window.title': '' for SCM files
+第2871条	Add support for `1.txt` format in incrementFileName
+第2872条	Fix MaxNumber incrementFileName bug
+第2878条	Moved action FindInFileActionId from constants file to a static const…
+第2897条	Fixed #34345 - Added Command that adds Multiple Cursors To End of File/Top of File 
+第2903条	[WIP] git: Detect conflict markets in BOTH_ADDED files when staging
+第2909条	Trash and FileSystemProvider #48259
+第2911条	Prototype update import paths on file rename/move for JS/TS
+第2916条	Add link to package homepage in package.json files
+第2917条	Add prefix case for incrementFileName
+第2944条	i18N：Normalize all JSON files' format for zh-cn
+第2960条	Fixes #48714: Added conversion from local case of the file to git case
+第2961条	Fixes #47367: Added a go to next error that stays within current file
+第3000条	opening existing file if not already active editor when creating new file with explorer with existing name
+第3009条	i18N: Fix,Change and union the Chinese translations in different files
+第3010条	untitled file first line filename feature
+第3011条	Normalize file paths before comparing them
+第3016条	Allow to open files as preview from the command line (--preview)
+第3017条	Correct comment inside script tag and style tag in razor file
+第3018条	Fixes #42726 fixing file name space issues
+第3050条	#47930 change closeOnFileDelete default setting to false
+第3081条	Allowed preceding spaces in fileActions.ts file names
+第3103条	#46785 open root folder when no file is in focus and reveal in finder
+第3120条	Src and smoketests changes for: Consider changing the focus after staging a file #15112
+第3130条	Modify file path before sending to WSL Bash
+第3133条	Fixes #45848 Long file paths for window.title": "${activeEditorLong}" 
+第3155条	multi-path creation in explorer: validation detects if file is not leaf
+第3158条	[GIT EXTENSION] Add Custom Foreground Color for Files Added to Index
+第3181条	make sure yml extesion is default for yaml files
+第3184条	Update file extensions for the ini language
+第3208条	Support file explorer horizontal scrolling
+第3235条	try to fix search file with ./
+第3237条	move huge file params to user config for Microsoft/vscode#44986 and mechatroner/vscode_rainbow_csv#3
+第3241条	Enabled 'Open to the side' command only for files
+第3242条	Config Tests - Check Filename
+第3256条	Allow css emmet completions when abbr contains period or errors in css blocks in html files 
+第3258条	Wrong placeholder in the .desktop file
+第3270条	Run Active File In Active Terminal - make file path WSL Bash friendly
+第3302条	Use C++ for '.ipp' file extension
+第3313条	Added support for links of file paths with spaces (#13245)
+第3323条	Open file issue. Fixes #42726
+第3331条	run active file in terminal should add backslashes for windows
+第3335条	File explorer: type to focus.  …
+第3339条	Remove comments in json file since they're invalid
+第3358条	Leverage native clipboard for file copy/paste
+第3362条	Fix #42839. avoid ui freeze when file is larger than heap size limit.
+第3366条	Use 'r+' with truncation when saving existing files on Windows
+第3378条	Allow middle mouse click to open file entry in the background
+第3384条	handle all Uris in git.openFile
+第3412条	Allow to write large files (> 256 MB)
+第3432条	Allow loading webview outside of file: origin
+第3445条	Allow renaming/creating/deleting files in a workspaced edit
+第3498条	[workbench/fileActions] add focusActiveFileInExplorer action
+第3547条	adding suggestion to search for extension for files are of unknown mime type
+第3562条	 Allow to save files that need user elevation
+第3588条	"files to include" and "files to exclude" now are separated with ';' …
+第3589条	Add .nvmrc file
+第3590条	Have the Seti Icon Theme use the json icon for jsonc files
+第3598条	Revert "Specify the UTI types for files in the Info.plist"
+第3609条	Fix #39306 - allow tab to change file currently being renamed
+第3613条	Tilde expansion for files to include and exclude (fixes #36792)
+第3635条	Open File Handler now untildifies. Fixes #32736
+第3652条	Fix #38920. Optional dependency to fileservice.
+第3664条	Prompt recommendations only when uri schema is file #37569
+第3671条	Unsaved tracked files warning Addresses: #37337
+第3683条	Fit promise error in fileServices
+第3690条	Make v8-profiler, css-parser URI http-proxy friendly
+第3695条	Add firstline match for Makefile
+第3705条	Don't generate an apt Packages file
+第3727条	Fix for: Commit should display warning if there are unsaved files in the project
+第3748条	Specify the UTI types for files in the Info.plist
+第3749条	File explorer horizontal scroll #15539
+第3755条	Updated coffeescript tmLanguage file
+第3768条	Call shellscript files just "Shell Script"
+第3803条	Update code.iss to associate `.bib` files
+第3811条	added a warning when user tries to commit, and there are unsaved files
+第3818条	Added support for selecting all files in git list
+第3838条	HistoryService: do not reset history when file change detected
+第3845条	Navigate to next/previous symbolic match in file
+第3847条	Commit unstaged files after pop-up confirmation (#35185)
+第3878条	Extend Compare Active File: Fixes #33526
+第3890条	Add `editorFileExtension` when clause context
+第3897条	Introduce IRelativePattern and adopt in DocumentFilter/FileWatcher/FileSearch
+第3900条	Add import statement snippet to .js(x) files
+第3929条	ftp file system provider
+第3939条	Support for uninstalling extensions given paths to their .vsix files
+第3948条	Create setting that trims newlines from the end of a file
+第3955条	Can no longer open image files from the git viewlet
+第3972条	Makefile colorization: fix old issues and improvement (~4 changes)
+第3978条	Fix #33155: treat .pac file as javascript file
+第3979条	Enable dnd for file search results
+第3980条	Enable dnd for problem files
+第3987条	Store timestamp for filebased extension recommendations
+第4009条	Bug: Exclude active file from compare list (Cannot compare with self) Fixes: #31853
+第4021条	Add publishsettings to list of xml file types
+第4030条	Add docker-compose.yaml highlight as docker file
+第4039条	Use async/await in fileService.updateContent
+第4042条	Add .cake file extension for C# language
+第4057条	Feature/file nesting
+第4067条	Add confirmation for dragging and dropping project files in the "Explore" panel
+第4072条	Use r+ with truncation when saving existing files
+第4092条	Update Translation & Delete useless file
+第4093条	Properly format file path on when dragging and dropping a tab into the integrated terminal in Windows (version 2)
+第4112条	Add showTextDocument(uri|file)
+第4127条	Feature 30055 - Disallow staging of files with unresolved conflicts
+第4128条	30055 - Disallow staging of files with conflicts
+第4143条	Experiment: remote file system
+第4144条	Tab title uses parent for specified file names
+第4148条	Add API to open a file or diff editor on a specific selection range (fixes #30241)
+第4152条	Show unsaved file modifications by opening a diff view
+第4162条	Properly format file path on when dragging and dropping a tab into the integrated terminal in Windows
+第4165条	Add *.props as a recognized file extension for XML
+第4186条	Keep undo history even when file changes outside Code.
+第4208条	#23797 git manage ignore files
+第4209条	Support files.watcherExcludes in the new file watcher
+第4220条	Add npm-shrinkwrap and package-lock files from npm 5.0.3 (node 8.1.2)
+第4231条	focus the vscode window when running FileImportAction
+第4234条	Add opt-in multi-root aware file watcher based on Axosoft/nsfw
+第4289条	Fix uncaught exception while opening file that does not exist
+第4313条	Add history navigation for file include/exclude patterns in the search pane. Remember history between sessions.
+第4315条	Closes #27410 - support multi-select on open file/changes commands
+第4326条	Makefile colorizing improvement: colorize at the beginning of line, handling the '\' symbol and other.
+第4327条	smaller logo file for Tweet feedback, fix #9064
+第4328条	Update theme-seti icon theme to use Git logo for Git file types
+第4329条	Makefile colorizing improvement: colorize at the beginning of line, handling the '\' symbol and other.
+第4338条	Added xcodeproj and xcworkspace extensions to supported file extensio…
+第4339条	Don't block file results on symbol results indefinitely
+第4342条	Add entry file of oniguruma when packing
+第4374条	Markdown preview support the UNC path files.
+第4378条	Add .git/subtree-cache/ to files.watcherExclude
+第4381条	Open old version of file in Git side bar.
+第4384条	Intelli-sense in extensions file
+第4386条	Always Show File Names in Symbol Search Results
+第4390条	Remove Need for File Extensions in TypeScript Language Definitions
+第4422条	Add "Include" to extension TSConfig Files
+第4435条	Add .mjs to known JavaScript file extensions
+第4437条	WIP: 23797 git manage ignore files
+第4439条	Provide a command to close all unchanged files
+第4452条	Fixes #4370: Set default icon for file associations
+第4455条	Issue 15613 all files committed
+第4484条	Inserting file path on the terminal, when dragging a file to it
+第4503条	Use js/tsconfig schema for jsconfig.*.json files
+第4530条	Immediately submit file search
+第4572条	Add new "files.defaultLanguage" configuration setting
+第4595条	backups: stop lowercasing file paths (fixes #16591)
+第4600条	Correctly duplicate files with numbers in filename
+第4602条	Uri.file fix
+第4617条	Case preserving but case insensitive file handling
+第4631条	Improved behaviour of dealing with deleted files (for #11642)
+第4662条	Exclude commonly generated files from search
+第4670条	Add an option to disable closing open files that are removed from the directory
+第4680条	Introduce promises to fileService.ts
+第4682条	Refactor fileService.ts
+第4683条	Write backup file when updating settings
+第4684条	Create backup of settings file when making changes (for #21676)
+第4694条	startup profiler
+第4704条	Treat podfile as ruby
+第4736条	Hot Exit: Opens the same file twice in two separate windows
+第4763条	Open vscode://file/path/to/project/ URLs properly on Windows - fixes #20290
+第4766条	Add Command to Go To / Create project configuration for an active js or ts file
+第4768条	Send Script Kind based on languageId for js and ts files
+第4775条	Use @types for a few d.ts files in src
+第4778条	Implement HLSL syntax highlighting, and use HLSL grammar to highlight Cg blocks in ShaderLab files
+第4783条	Fix error markers and problems links in untitled js and ts files
+第4784条	Enable Markdown Scroll Syncronization for Untitled Files
+第4786条	Don't open Untitled file when Welcome page is opened
+第4790条	Resizes the tab size when dirty file state changes, fixes #15364
+第4795条	Mac: file events are not reported when using workspace path with different casing (fixes #1426)
+第4817条	Remove unneeded d.ts files from extensions
+第4825条	Move markdown preview content provider to own file
+第4847条	Fixes #18999 - Added .npmignore as a known file type
+第4855条	Implement getProfileName for emmet
+第4873条	Support Local File Links from the Markdown Preview
+第4880条	Walk-through: Avoid creating temporary files
+第4885条	Open new file buffer via API
+第4891条	Enable emmet customizations for preferences, profiles and snippets
+第4894条	xhtml is a profile not syntax in emmet
+第4901条	Fixing sorting of directory and filenames with numbers
+第4936条	[9388] add setting that keeps sidebar from toggling folders/opening files
+第4946条	Sequentialise writes to files
+第4954条	The whole file name is used when dealing with filename associations
+第4973条	Added github icon mapping for gitmodules file
+第4994条	Search does not work in UTF-16 LE encoded files (fixes #17408)
+第4997条	Use File Icon for TS Path Completions
+第5001条	Activate TS Extension When Workspace Contains TSConfig or JSConfig file
+第5004条	Add an AppData XML data file to Linux builds
+第5025条	Add outline support for Markdown files
+第5033条	Disable text file backups when files.autoSave is afterDelay
+第5055条	DND: visible watermark prevents dropping of files (fixes #15698)
+第5066条	Jenkinsfile are groovy too
+第5084条	Expose IBackupFileService interfaces to get lists of backed up files
+第5099条	Fixed $fileBasenameNoExtension
+第5107条	Check and clean up backup workspaces that don't have any files backed up on launch
+第5117条	Introduce a backup file model inside IBackupFileService
+第5118条	Remove some d.ts Files From TypeScript Extension
+第5136条	Move event buffering from BackupService to file models
+第5137条	Handle binary files git preview
+第5147条	Restore untitled files from within UntitledEditorModel
+第5148条	Add .conf and .cfg file extensions for ini language
+第5158条	Support opening files through URL handling (fixes #4883)
+第5177条	Fixes #12694 regex replace strips filepath when approot is PIIPath
+第5184条	Fix #14135 - Allow files with merge status to be staged
+第5215条	quick open files in background
+第5218条	Eagerly preview files in quickopen widgets
+第5237条	vs-seti-icon-theme: show icon for 'TODOs' files
+第5243条	rename fileicons->icons
+第5258条	Open a previewEditor while navigating files through QuickOpen
+第5263条	Show message when detected encoding of file is non UTF
+第5279条	Remove extraneous "..." that breaks gulpfile
+第5291条	Show Markdown Preview Menu Button For any File Opened as Markdown
+第5297条	Preserve files on exit (aka hot exit)
+第5307条	Fix colorization of html prefixed by spaces in markdown files
+第5308条	Add Syntax Highlighting for C# Fenced Code Blocks in Markdown Files
+第5315条	Use git icon instead of GitHub for .git* files
+第5321条	Provide a changelog tab when this file is bundled in the package
+第5325条	Update Markdown Preview on External File changes
+第5334条	Add common C++ file extensions .cxx, .hxx, and .hpp to seti theme
+第5336条	Simple pattern of all other files
+第5378条	Avoid multiple updates when file search is cached
+第5380条	Emmet tweaks: simplify set/reset Emmet preferences and syntax profiles
+第5395条	Allow scss files to optionally be used instead of css files
+第5407条	Fixes #10556: considering non open files dirty count using file dirty event
+第5415条	Git: Ignore untracked files in change count badge
+第5420条	Added bash_aliases to fileTypes
+第5429条	Updated package extensions to associate files
+第5431条	Modification to the VS code startup batch file for #7619
+第5432条	Sort and limit file results in search process
+第5433条	Modification to the VS code startup batch file for #7619
+第5438条	A file open with auto-detected encoding.
+第5444条	Add emmet support for .pug files
+第5449条	Detect shebang for Groovy files
+第5451条	Add file walk telemetry
+第5511条	Enable file actions in search results viewlet
+第5539条	Treat `.webmanifest` files as JSON
+第5544条	Support for Emmet preferences and syntaxProfiles
+第5552条	Add 'vscode' as a keyword in the .desktop file
+第5564条	Fix extract when fileName is a directory
+第5574条	Added .dsql and .psql filetypes
+第5580条	Highlight .mk files as a Makefile
+第5587条	Open editors list lost middle click to close file (fixes #7162)
+第5605条	Add actions to workbench registry for staging and unstaging the active file
+第5615条	Adding extra file extensions/names to ini and shell script extensions
+第5630条	Support Vuejs file (fix #6290)
+第5642条	Move working file model shutdown to DoShutdown phase.
+第5647条	Added .inl file extension to C++ language
+第5658条	Show move file to trash keybinding in context menu - resolves #5603
+第5660条	Add a global action to add a new file in the explorer - resolves #5547
+第5665条	Create new conf files with right indent settings (fixes #5550)
+第5682条	Add point about Qt project file support
+第5690条	Supported .ru extension and Guardfile
+第5694条	Update Dockerfile highlighting to support 'ARG'
+第5699条	Implement open recently closed file(s) action
+第5710条	#78 gitignored files not displayed on explorer view by default
+第5711条	Provide an option to stop scrolling revealing active file in explorer (fixes #3062)
+第5719条	New untitiled file not saved on exit (fixes #4739)
+第5720条	New untitiled file not saved on exit #4739
+第5736条	checks models when file events happen
+第5738条	Add support for a bunch of zsh configuration files
+第5739条	add emmet support for .ejs files
+第5765条	Allow file name to language associations via settings (fixes #3612, #2883)
+第5781条	File and folder icon theme feature
+第5804条	Add Vagrantfile as a ruby language file extension
+第5824条	add emmet support for .erb and .php files
+第5870条	Search: Investigate into native commands for recursive file listing
+第5888条	Amend the hint "jsconfig.json-file" to "jsconfig.json file"
+第5889条	Add a keyboard shortcut to focus on the working files view on the sidebar
+第5902条	Universal installation script and .desktop files added
+第5917条	[ruby] Add Gemfile to supported filenames
+第5920条	[python] Add .gn as a python file extension
+第5933条	[xml] Add several XML file extensions
+第5973条	Delete files not using
+第5990条	Enable regex's ^, $ and ^$ to be matched in file dialog

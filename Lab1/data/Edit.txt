@@ -1,0 +1,266 @@
+第25条	Only zoom after first click, after the webview editor is active.
+第43条	New: add an option that does not match brackets for editor.action.selectToBracket
+第54条	Focus correct SCM repo when restoring editors
+第57条	Open existing keybindings in new editor
+第77条	Making the active editor background (and gutter) customizable 
+第85条	Disable horizontal scrolling when editing an element in explorer
+第102条	Reuse screen space when hiding editor tabs
+第104条	Removed max-width restrictions from the .monaco-editor-hover #69835
+第116条	support editorHoverWidget.foreground
+第120条	Open Editors respect `workbench.editor.labelFormat`
+第136条	Clear Editor Selection When Find Widget Is Closed
+第141条	fix issue #41558 - keybindings editor header no longer selects first item 
+第152条	Sort opening editors in alphabetical order
+第169条	editor.insertSpaceAfterComment setting
+第201条	Show dirty state icon when workbench.editor.tabCloseButton is off
+第202条	Show dirty state icon when workbench.editor.tabCloseButton is off
+第250条	editor, modes.ts: documentation, fix broken link
+第263条	A readOnly editor doesn't honor readonly in the textArea
+第346条	Refactor editor options
+第387条	Editor service requires strongly typed options
+第396条	Fix Cmd+F key in problems view robbed by find in editor
+第477条	Force refresh on setInput in settingEditor
+第520条	Update spacing on settings editor array editor
+第533条	Fix: Settings editor renders all tree elements at once
+第544条	Allow closing editors through the editor service
+第569条	Update Monaco standalone editor icons
+第592条	Prototyping custom editors
+第603条	Make centerEditorLayout do not call layout
+第639条	best code editor
+第664条	Fix so that autoIndent defaults in all editors is false as per the specification to fix issue #76846
+第665条	Fix so that autoIndent defaults in all editors is false as per the specification to fix issue #76846
+第694条	best code editor
+第751条	Allow registering lazy editors in the registry
+第762条	Update precondition for ShowExtensionEditorFindCommand
+第781条	Stop event propagation in `onEditSettingClicked`
+第787条	Clear disposables on clearInput in ExtensionEditor
+第823条	Recommend users install EditorConfig extension
+第824条	Use MutableDisposable for managing editorStatus items
+第884条	Fix-74142 "Search: Focus Next Search Result" should put cursor in the editor panel 
+第907条	'Keep Open' menu entry should show disabled when editor is pinned (fi…
+第912条	Fixes #71580: Prevent focus leaving the editor when clicking the light bulb
+第948条	Controlling the background color of the active tab in an unfocused editor group
+第1016条	add code lens cache to standalone editor
+第1062条	fixes https://github.com/Microsoft/monaco-editor/issues/1353
+第1088条	Don't expand parent element if it's the root in single folder workspace when editing an element in explorer.
+第1121条	ext: in setting editor
+第1139条	Fix #69729 - Diff editor view position not being restored
+第1213条	Add reverse colors option to text diff editor
+第1259条	Add `directory` option to workbench.editor.labelFormat
+第1261条	Create panel part after editor part in workbench
+第1267条	Strict null check editorService
+第1274条	Refactor to avoid using 'any' in common/config editor options
+第1294条	Features of brackets code editor
+第1333条	Strict null check textEditorModel
+第1351条	Make EditStack correctly report canUndo
+第1368条	add high contrast border color to editor actions
+第1374条	Fix #1957 debug console follows existing editor font settings
+第1415条	Fix cmd+down on search result focusing editor
+第1426条	Candidate: Middle mouse click should open pinned editor
+第1508条	Make context parameter optional for editors
+第1567条	Implement API for text editor focus
+第1587条	[themes] Add ability to reload themes without restarting the editor
+第1619条	Converted editor.test.ts and related to strictNullChecks
+第1622条	prepend category in keybinding editor
+第1660条	HTTPS link to EditorConfig.org
+第1687条	Maybe more standard editorconfig
+第1689条	only dismiss editor context menu when scrollTop has changed
+第1711条	open editors: use scoped context keys. Set them when context menu is triggered
+第1757条	Selectbox: Add decoratorRight parameter - Default indicator for settingsEditor. Addresses: #58724
+第1918条	add editor.indentSize option
+第1941条	edited bump editor
+第1942条	edited pull roblou
+第1943条	pull edit reactor file
+第1944条	pull edit Electron 4.0.x
+第2036条	Add commands to be able to easily set VSCode as git editor, diff and merge tools
+第2073条	Add a reference to Monaco Editor in README
+第2084条	edited readme
+第2090条	Add a message informing that no editors are open
+第2096条	Clear Editor Selection When Find Widget Is Closed
+第2130条	feat(editor): add icon for the keybindings editor page
+第2140条	Add ability to reload a file icon theme without restarting the editor
+第2163条	Resolves #57507 - Allows clicking of Modified In labels in setting editor view
+第2200条	Showing how good of an editor it is in one commit
+第2240条	[StandaloneEditor] Initialize static field 'SCHEME'
+第2280条	Fix typos in workbench.editor.labelFormat
+第2289条	Allow to navigate to last edit location
+第2294条	Use detailed text for reload button in extension editor
+第2314条	change active text editor logic to ignore blur events
+第2336条	[WIP] Add support for editing comments
+第2345条	Allow folding icons to match editor.fontSize
+第2360条	Fix #58183 - hide dirty-diff decorator when inside the diff-editor
+第2364条	pin editor when breakpoints change, fix #55283
+第2365条	Update editorWidget.background color
+第2398条	Add editor.restoreViewState option
+第2402条	Add when context: isLastGroup / isFirstGroup / editorGroupIndex / isLeftGroup / isRightGroup / isTopGroup / isBottomGroup
+第2452条	Enum descriptions in new settings editor via SelectBox widget
+第2473条	do not attempt edit operation for read-only editors
+第2491条	Enum descriptions in new settings editor via Suggest widget
+第2493条	Create new search input model for each instance of a settings editor
+第2497条	Add openEditorAtIndex command that allows to pass in the editor index
+第2507条	Open Editors: revisit order of groups to be based on visual order
+第2510条	Open the JSON settings editor instead of the UI editor
+第2511条	Update editor walkthrough to the latest synatx
+第2512条	Add editor.peekOnGoToDefinition, editor.peekOnOpenDefinitionToSide and editor.peekOnGoToTypeDefinition settings
+第2516条	Add validation to new settings editor
+第2532条	Fix bug disallowing saving in setting seditor and keybindings editor
+第2550条	Extract autosuggest editor to own class; bring into settings
+第2571条	Settings Editor: Add aria labels for input elements Fixes: #54836
+第2580条	Use editor.next/prevChange keybinding for diff navigation
+第2593条	Polish embeddedEditorBackground
+第2594条	Prevent pasting multiple lines into the extension search editor
+第2601条	Support tags on settings to filter in settings editor
+第2605条	Refactor simple widget editor config files
+第2627条	Preserve the revealed area after using "Open File" from git-diff editor (fix #53465)
+第2666条	Edit pass on new built-in extension comments
+第2677条	Support multiple configurations in extension editor
+第2688条	Set diff editor border to match regular editor border. 
+第2701条	extract common path prefix to shorten diff editor label
+第2717条	Adds `editorUnnecessaryCode.foreground`.
+第2728条	Fix: running 2x2 grid on an existing grid flips editors
+第2778条	Limit highlighting on drag over open editors by checking if dragged item can be dropped
+第2789条	Open readonly files as readonly editors
+第2797条	Fixes stuck hover widget when triggered manually, with "editor.hover": false
+第2801条	Improve Dependencies and Contributions UI in the Extension editor
+第2809条	Centered editor layout
+第2815条	API tweaks for grid editor
+第2816条	doc: fix doc for `window.onDidChangeTextEditorVisibleRanges`
+第2851条	Update close button in editor tabs
+第2882条	`{ "editor.wrappingIndent": "deepIndent" }` for 2 additional tabs on continuation lines
+第2888条	Add CommentProvider, panel, and editor contribution
+第2895条	[powershell] Update PowerShell Editor Syntax.
+第2898条	Implement Go To Next/Previous Breakpoint editor actions
+第2933条	Configure output panel editor word wrap
+第2951条	Implement a grid editor layout feature
+第2956条	Added a setting for closing the active editor group when the last edi…
+第2982条	API allowing CodeActionProviders to reliably get the current editor selection
+第2988条	Use different problem colors for editor and tree
+第2991条	Add open editors context menu contribution point
+第3000条	opening existing file if not already active editor when creating new file with explorer with existing name
+第3033条	Add editor.codeActionsOnSave
+第3076条	monaco-editor: web ide app `worksapce/symbol` Reuse document/symbol s…
+第3089条	Split out `Webview` from `WebviewEditor` in proposed API
+第3092条	"Clear Recently Opened" now clears editor history
+第3093条	#47041 fixed the scrolling of the editor and cursor after the revert …
+第3124条	debug: introduce breakpoint editor
+第3133条	Fixes #45848 Long file paths for window.title": "${activeEditorLong}" 
+第3151条	Simple widget editor that is hidden from extensions
+第3250条	Edit pass on built-in extension descriptions
+第3266条	Scroll sync markdown editor with markdown preview
+第3274条	Disallow drag splitting of non-splittable editors
+第3303条	Add partial staging actions to diff editor context menu
+第3305条	Show same colors on overview ruler as editor gutter for scm modifications
+第3310条	Add onDidChangeActiveEditor API
+第3318条	fixes Italic text clip in open editors panel
+第3359条	"editor.suggestSelection" fix #42795
+第3360条	"editor.suggestSelection" fix #42795
+第3411条	Take kind instead of edit in CodeAction ctor
+第3439条	[monaco] fix Microsoft/monaco-editor#642: sync CompletionItemProvider api
+第3443条	Add copy command action to keybinding editor context menu
+第3445条	Allow renaming/creating/deleting files in a workspaced edit
+第3447条	Update vs_code_editor_walkthrough.md
+第3475条	Add note to differentiate btw TextDoc & TextEditor
+第3476条	Adopt list commands for editor's "Find References" peek UI
+第3479条	Save diff editor view state
+第3509条	support next-previous change in editor view #7717
+第3519条	workbench: Adds actions for moveEditorToFirstGroup, moveEditorToSecondGroup, moveEditorToThirdGroup
+第3542条	Update editor.lineNumbers description
+第3577条	Apply suggestion additionalTextEdits after main insertion
+第3592条	Allow resizing of open editors pane
+第3610条	Mark onDidChangeActiveTextEditor can fire with undefined
+第3636条	Adding 'editor.sameCursorStyle' preference setting
+第3665条	Defer RichEditBrackets creation
+第3694条	Update monaco-editor-setup.js
+第3696条	Added "open editors" sorting option by recently saved
+第3699条	Adding 'git.openWithDiffEditor' preference setting.
+第3704条	add split pane to preferences editor
+第3742条	Fix logic for 1 editor Inc/Dec View command Fixes: #37347
+第3758条	Fix stray space in editor config
+第3771条	Show recommended label in view and reason in editor #36649
+第3839条	expand editor code region styles - fsharp
+第3848条	Remove kludge that adds history item when new input is set on an editor
+第3890条	Add `editorFileExtension` when clause context
+第3943条	Add editor.codeActions to enable/disable code actions
+第4017条	Editor model creation options do not honour folder scope yet
+第4045条	Fix onDidChangeTextEditorSelection firing when the editor is resized
+第4080条	Add editor action for closing all diff editors at once
+第4095条	#30955 Implement virtual editor for workspace settings in MR workspace
+第4104条	Added API to access editor markers
+第4121条	Allow to pass in editor options to vscode.open command
+第4148条	Add API to open a file or diff editor on a specific selection range (fixes #30241)
+第4167条	Find in webview based views (html preview, release notes, extension editor)
+第4194条	Editor.TokenColorCustomizations
+第4280条	Added editor.urlClickable setting to enable/disable clickable URL
+第4292条	Added editor.urlClickable setting to enable/disable clickable URL
+第4361条	Add "Open to the Side" action to editor tab context menu.
+第4372条	Refactor TextEditorOptions.fromEditor to be a Static Method
+第4379条	[theme] remove editorOptions.theme
+第4398条	Store and restore view state for ResourceEditorInputs
+第4402条	Use EditorGroupinfo to decide if to swap/reposition suggest widget
+第4416条	Mark Completion Items with Command as MakesTextEdit
+第4453条	Improve wording in of editorHeaderBackground
+第4520条	Clean up some editor input debt and lifecycle issues
+第4528条	Hot exit: Lost editor contents on upgrade (fixes #23999)
+第4529条	Hot exit: Lost editor contents on upgrade
+第4561条	Adds editor options overloads to showTextDocument & vscode.diff
+第4585条	Expose diff editors in the API
+第4616条	Proposal fix 22401: Search in settings editor is showing invalid results for search term
+第4637条	Add option to follow the last valid active path for untitled editors outside of a workspace
+第4640条	Implement join editors command
+第4665条	Add Command for navigating around visible editors/viewlets/repl
+第4681条	Add option to always reuse open editors
+第4709条	Add workbench.action.focusActiveEditorGroup to commandsToSkipShell
+第4734条	Callback parameter for TestEditorService() is optional
+第4762条	Drag and drop selection in editor
+第4820条	Support Fragments for intra document markdown editor links
+第4842条	Support In-Document links inside of the markdown editor
+第4864条	Add Markdown Preview to Editor Scroll Syncronization
+第4869条	Fixes md preview to editor sync when before first element in preview
+第4876条	Improve markdown preview to editor mapping
+第4881条	Prototyping Markdown Preview Synchronization With Editors
+第4941条	Improve edit action and search in Settings editor
+第4949条	Show selected line count in the editor status bar
+第4953条	Isidorn/debug editor console
+第4962条	#14464 Preserve editor size when switching layout
+第4976条	Adding an overload to TextEditor.edit for insertion of a SnippetString
+第4979条	Isidorn/tabs in editor group service
+第5009条	Compute cursor/s state after edits were applied
+第5048条	fix formatting in commonEditorConfig.test.ts
+第5076条	Log where an editor action was triggered from
+第5120条	Fix typos in commonEditorConfig.ts
+第5147条	Restore untitled files from within UntitledEditorModel
+第5210条	Enable line highlighting for read only editors
+第5213条	Update editor.lineNumbers description.
+第5221条	Diagonal editor layout
+第5225条	Adding tests for editor state
+第5240条	editor.formatter
+第5258条	Open a previewEditor while navigating files through QuickOpen
+第5328条	Implement focus active editor group command
+第5337条	Don't respect editor.fontSize: 0
+第5362条	Correct docs for IEditorScrollbarOptions.useShadows
+第5374条	Implements recently closed editors opening at same position as they were closed.
+第5379条	Emmet tweaks: clean-up editorAccessor tests
+第5410条	Added editor.fontWeight and terminal.integrated.fontWeight configuration
+第5419条	Dispose editors that get hidden to tackle context issues
+第5424条	Make text edits more minimal
+第5447条	Addresses #3690 high-contrast less hacky in editor
+第5473条	Introduce a move command for the editor
+第5476条	reparent editor container for #8579
+第5483条	Add editor description to tab titles
+第5484条	Migrate EditorActions wrt context menu
+第5493条	Add a little top-padding on the editor container
+第5499条	Fixes invisible cursor in long editor lines
+第5520条	Emmet: canceling wrap shouldn't add tab to the active editor
+第5551条	fix : Standalone Monaco text edit validation
+第5553条	Editor DND with split support
+第5587条	Open editors list lost middle click to close file (fixes #7162)
+第5604条	add editor.action.undoAddSelection
+第5673条	Editor improvements (#4637, #3685)
+第5702条	Extension management in editor part
+第5746条	#2500 and #2352 add focus indication to text editors / panels.
+第5806条	fix TextEditorOptions declaration - fixes #2797
+第5884条	Implementation of editor.action.insertCursorAtEndOfEachSelectedLine
+第5897条	[editorconfig] Use tab_width instead of indent_size
+第5936条	Fixes to editorconfig
+第5974条	.editorconfig added
+第5977条	IWorkbenchEditorService dependency for MainThreadOutputService

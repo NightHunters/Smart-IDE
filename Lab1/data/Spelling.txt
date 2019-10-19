@@ -1,0 +1,28 @@
+第615条	fix: spelling mistake correction
+第872条	Fix spelling of the example abbreviation (e.g.)
+第1285条	Fix spelling of 'accessible' in task.json group enum
+第1318条	Fix typo in spelling of Preferences.
+第1806条	fix spelling of "firstPage"
+第1970条	Fixed spelling mistakes
+第2670条	fixed spelling mistake from 'occuring' to 'occurring'
+第2875条	Spelling fix Ouoting -> Quoting
+第2887条	Fixing various API/Comment/Variable spelling improvements
+第2992条	Fix spelling mistake in NPM task tooltip
+第3025条	Improve spelling of items relating to nls.localize()
+第3054条	Spelling
+第3506条	fix spelling of issues to issue since "report issues" can't be found in the command palette
+第3518条	[Docs] - VSCODE - README.md - minor tweaks (spelling/grammar)
+第3661条	Correct spelling of Message in reloadMessaage in extensionsActions.ts and extensionsActions.test.ts
+第4032条	fix spelling of 'iff' and 'idenifier'
+第4033条	Fix spelling of "taskDefinitions"
+第4034条	Fix spelling of "registered"
+第4054条	Fix spelling in TaskDefinition doc comment
+第4079条	fix spelling
+第4110条	Added oxford comma and fixed macOS spelling
+第4172条	Fix doc comment spelling errors in problemMatcher.ts
+第4173条	Fix spelling errors in ProblemPattern doc comments
+第4174条	Fix spelling of background
+第5057条	Fix spelling mistake "Occurrences" has two r's.
+第5418条	Spelling problem fixed...
+第5458条	Fix minor spelling mistake in comment: Iff > If
+第5919条	Fix spelling/punctuation in descriptions of User Settings --> JS Vali…

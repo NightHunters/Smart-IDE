@@ -1,0 +1,59 @@
+第295条	Update cpp grammar to handle macros
+第706条	Roll back C language grammar to 1.35
+第1144条	Revert C and C++ grammar change
+第1338条	move TMGrammars + Emmet
+第1621条	Makefile grammar updating: tests are updated about the handling @, - and +
+第1772条	Update C# TextMate grammar with latest fixes
+第1791条	added .hintrc and moved .babelrc to jsonc grammar
+第1936条	Update makefile colorize tests according to the latest grammar
+第1960条	Fix grammars and add missing periods in comments
+第2424条	Update C# grammar
+第2451条	Grammar fix in CONTRIBUTING.md
+第2755条	Update to powershell grammars
+第2877条	Fix regression in C# TextMate grammar related to lambda parameters
+第2884条	Grammar Injection - Consider broader Scopes
+第2913条	grammar fix for #50008
+第2930条	Update C# TextMate grammar with important bug fix
+第2949条	Update C# TextMate grammar
+第2983条	Latest fixes for C# TextMate grammar
+第3079条	Update C# TextMate grammar with latest bug fixes
+第3287条	Fix php grammar update script
+第3367条	Stylistic and grammar fixes in Emmet messages
+第3446条	fix grammar in walkthrough
+第3518条	[Docs] - VSCODE - README.md - minor tweaks (spelling/grammar)
+第3558条	Update to latest C# TextMate grammar
+第3783条	[java] update grammars
+第3790条	Fix grammar: Current => Currently
+第3922条	Allow injection grammars to specify embedded languages
+第3963条	Fix C# TextMate grammar to properly highlight statement-level await expressions
+第4007条	Fix grammar for update alert
+第4037条	Improve "uninstall first" messaging/grammar
+第4086条	Update C# TextMate grammar with support for #r and #load directives
+第4123条	update php grammar
+第4221条	update php grammar
+第4232条	Improve grammar of config setting description
+第4283条	Update C# TextMate grammar with latest fixes from csharp-tmLanguage
+第4296条	Update js/ts grammar
+第4308条	Update to latest C# TextMate grammar
+第4330条	update php grammar
+第4352条	Add more tests to PHP grammar
+第4407条	Update ts/js grammars in order to support colorizing JSX components differently from standard HTML tags
+第4458条	Update TS/JS Grammars
+第4469条	Update Go grammar to atom/language-go@6de3f61
+第4578条	Update to latest C# TextMate grammar
+第4582条	Pick up updated coffeescript grammar 
+第4587条	Update Go grammar to atom/language-go@11ad31e7 (2016-12-30)
+第4642条	Pick up new c/c++ grammar 
+第4677条	[Objective-C grammar] Xcode’s snippets-markup
+第4678条	[Objective-C grammar] add @autoreleasepool
+第4689条	Switch Objective-C Builtin Extension to Use the Atom Objective-C Grammar
+第4698条	Use Atom-Clojure Grammar
+第4744条	Update to latest C# TextMate grammar
+第4778条	Implement HLSL syntax highlighting, and use HLSL grammar to highlight Cg blocks in ShaderLab files
+第5051条	Adding Docker 1.12 instructions to its grammar
+第5220条	Typescript grammar update
+第5339条	Redone YAML grammar
+第5391条	update-grammer.js to change grammar name #2867
+第5602条	Fixes #6916: Remove type parameters rule from JavaScript grammar
+第5629条	Add support for external grammar injections
+第5744条	[ruby] Update ruby grammar
