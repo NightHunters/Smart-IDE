@@ -1,0 +1,113 @@
+第34条	Process debug adapter messages in separate tasks; see #33822, #79196
+第36条	don't use ParsedArgs in rawDebugSession; fixes #80461
+第37条	Show breakpoint as verified if any debug session did verify it; see #55106
+第203条	Terminal and part of the debug changes needed to respond to cancelling a prelaunch task
+第204条	debugCommands: check if threadId is number before using it
+第323条	Allow debug session to share repl with its parent; fixes #62419
+第324条	Make DebugSession.loadSource work for non-cached sources, see #79228
+第388条	Make DebugSession.name writable; fixes #79583
+第535条	fixup! Toggle for disabling autofocus on debugger stop
+第538条	fix Debug Unit Tests configurations order
+第652条	Toggle for disabling autofocus on debugger stop
+第707条	debug: fix word-wrap
+第728条	Preserve tree state in debug Variables view
+第811条	Bring debugger into the web
+第873条	debugSource use uri.from
+第943条	Preserve whitespace in debug hover expresion value
+第1071条	Fix-72370 Opening large file when debugging freezes
+第1173条	Added 'Copy Raw Value' to debug variables/watch context menu.
+第1197条	Use active theme colors for styled text in the debug console
+第1214条	Use default terminal colors in debug console and add seperate high-intensity ANSI colors
+第1219条	Add support for 8- and 24-bit ANSI escape color codes in the debug console
+第1291条	Make debug session caching more robust; fixes #69534
+第1374条	Fix #1957 debug console follows existing editor font settings
+第1472条	debugger console recognizes italic ansi code
+第1502条	Add remove button in debug watch expression panel header
+第1512条	Add "Start without debugging" button to touch bar
+第1517条	Fix the condition used to determine if we should shift focus while debugging
+第1543条	Debug with prelaunch task with long running dependsOn doesn't work
+第1680条	Simplify start debug command handler
+第1708条	Fix broken Debug > Start Debugging global menu action
+第1773条	Isidorn/debug trees
+第1778条	Support debugging process from the process explorer
+第1848条	Fix #62785 empty lines in debug console copyAll
+第1872条	debug repl: Make sure to select the session if debugging is already actuve
+第1927条	Fix example command line for debugging tests
+第2007条	DebugConfigurations: No separator if no configurations. Fixes #58984
+第2008条	DebugConfigurations: No separator if no configurations. Fixes #58984
+第2032条	Add telemetry for debug add breakpoints #55514
+第2095条	debug: on restart, make sure to first disconnect and only then run th…
+第2152条	Filter debug variables
+第2171条	Multiple repls per debug session
+第2211条	debug: restart shuold also resolve configuration by providers when changed
+第2253条	Isidorn/debug start
+第2262条	debug: clean up activation events
+第2366条	Fix to make the EH debugging to work when live share proxy the debug adapter
+第2409条	debugService.onWillNewSession
+第2410条	debug: onDidCustomEvent back to debugService
+第2421条	debug: do not treat TaskEventActive as if the task started
+第2468条	debug remove stdFork usage
+第2827条	Center dropdown in debug toolbar
+第2880条	Add "Start debug with stop on entry" action
+第2910条	Add `whenViewHidden` for debug status in status bar
+第2924条	Add openOnDebugBreak for openDebug
+第2952条	Fixes #49580: Updated debug icons for "continue", renamed default to "start"
+第2979条	[WIP]: Move Debug Actions Widget to the Debug Viewlet
+第2980条	[WIP]: Allow the Debug Actions Widget to be Dragged Vertically
+第3005条	debug: debug.hideNonDebugHovers
+第3095条	implemented start debugger on restart debugger if debugger isn't started
+第3124条	debug: introduce breakpoint editor
+第3162条	#21423 | Add underline styling to debug console
+第3205条	Debug icon polish
+第3215条	Revert "Debug icons consistency and housekeeping work"
+第3220条	Debug icons consistency and housekeeping work
+第3224条	Revert "Debug icon consistensy pass"
+第3228条	Debug icon consistensy pass
+第3298条	Debug: Added collapse all in debug console Fixes: #38109
+第3334条	Fixes #19580; added copy property path action to debug viewlet
+第3386条	Feature Request: add support for innerloop Time-Travel Debugging
+第3424条	support Compound debug configurations across workspace folders 
+第3573条	Expose border style for debug toolbar. Fixes #39324
+第3587条	Fix incomplete configMissing message in debugService.ts
+第3605条	Add Debug:Evaluate command to REPL history
+第3642条	start debugger on restart action if it's not already running Issue: #24425
+第3648条	fix debug console to handle more than one graphics mode in a single escape sequence
+第3735条	Fix array syntax in debug/electron-browser/debugViewer.ts
+第3869条	Clarify debugRequestNotSupported message in debugService.ts
+第3888条	Hook extension console into debug console
+第3988条	Downgrade Electron to 1.7.3 with debug fix
+第4081条	Enable extensionHost debugging with --inspect
+第4212条	Add debugger type in extension view
+第4275条	Add Debug Output Copy All command : Fixes #27079
+第4349条	Expose status bar debugging and no-folder foreground colors.
+第4481条	Added markdown trace option for debugging user issues
+第4518条	Link detection for the exception widget and debug console
+第4538条	Let the widgetactions debug UI reflect the state of a focused thread
+第4565条	prevent reload window closes the debuggee; fixes #23390
+第4720条	Debug quick open menu to be pulled with import
+第4729条	Select box debug configuration listener
+第4730条	Ability to select and launch debug configuration
+第4739条	Add negated inDebugMode context to fullscreen keybinding
+第4758条	Colour for column selection in debugging mode added to high contrast …
+第4887条	Allow extensions to handle launching of the debug adapter
+第4925条	update node-debug: async source maps
+第4953条	Isidorn/debug editor console
+第5093条	inline values as decorators when debugging
+第5139条	Disable backups when extensions are being debugged
+第5199条	Multiple debug sessions
+第5372条	Fixes debugger config launch for Linux and OSX.
+第5373条	Changes cursor animations to start in default state to fix #10922 and Updates debugger config to launch properly on Linux and OSX.
+第5441条	Debug: Allow click to show getter property value
+第5506条	replace settings variables in debugger config #8042
+第5525条	replace settings variables in debugger config #8042
+第5556条	UI support for TimeTravel Debugging
+第5560条	Debug: Fix setConfiguration error when name is null or undefined
+第5585条	Debug: Fix setConfiguration error when name is null or undefined
+第5754条	Fixes #3650: Support stop-all-threads mode debugging for multi-thread…
+第5768条	Added telemetry for debugging scenarios
+第5789条	add support for restarting debug session
+第5796条	debug: telemetry key contributed by debug adapters
+第5814条	debugProtocol update: Add types for function breakpoints
+第5854条	Fix connecting to debugAdapter by port when offline
+第5876条	Fix debugging debugAdapters when offline
+第5914条	[ISSUE #226] Fix debug console word wrapping

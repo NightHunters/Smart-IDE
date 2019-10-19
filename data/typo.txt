@@ -1,0 +1,168 @@
+第251条	Fix typo in batch replacement pop-up
+第278条	Fix terminalProcess typo "exectuableVerification"
+第312条	Fixes some capital S typoes with JS/TS
+第385条	Typo fix: disposables
+第411条	Fix typo in tasks jsonSchema
+第437条	Fix trivial zsh completion typo
+第456条	docs: fix typo restablished -> reestablished
+第460条	fix: event's jsdoc typo
+第491条	Typo: isDiposed should be isDisposed
+第492条	fixed typo: sugget renamed to suggest
+第493条	fixed Resizable typo
+第494条	Indentation typo fix
+第495条	Typo Fix: isToogle to isToggle
+第496条	Typo: VerticallOffset -> VerticalOffset
+第497条	Typo: Comapletion - > Completion
+第498条	Param typo in locateFile.ts: Absoulte -> Absolute
+第499条	Precidence typo
+第500条	Typo: explaination
+第501条	Typo: conditon -> condition in php.snippets
+第503条	Typo: parameter
+第504条	Typo: Inclue to Include
+第506条	Typo fix: Reamining -> Remaining
+第507条	Typo: Accumulated
+第508条	Typo: validate
+第509条	Typo: Multi
+第510条	Typo fix: Foucus
+第511条	Typo: extention to extension.
+第512条	Typo: Existance
+第513条	Typo: Parms
+第514条	Typo: Delimitor
+第515条	Typo: Hilight is highlight
+第516条	Typo fix: Parallell
+第518条	Typo fix: Adress to "Address"
+第519条	onIsCaseInsenitiveFileSystem is a typo.
+第521条	Fix typos
+第524条	chore: fix typo in comments
+第549条	Fix 'Untitled' typo
+第562条	Typos in user-facing code and variables.
+第563条	Fixed minor typos
+第591条	fix: typo on localize key - renderWhitespace.boundary
+第599条	Fix for "whiteSpace" typo: Parameter name and word is one command word spelled "whitespace".
+第606条	Fix for "whiteSpace" typo: Parameter name and word is one command word spelled "whitespace".
+第636条	Fix typos
+第704条	Fix typo transitionDisposables
+第705条	Fix typo in description
+第747条	Fixed a typo in vscode.executeCodeLensProvider args
+第755条	Fix 'unkown' typos
+第767条	Fix 'postion' typos
+第815条	Fix some typos in comment
+第848条	Fix typo: timemout -> timeout
+第894条	Fixed typos
+第930条	Fix typos and localize issues
+第963条	Fix typo: isScrollWhellKeyPressed => isScrollWheelKeyPressed
+第1022条	Fix JSDoc typo: "beginPattern" -> "beginsPattern"
+第1026条	Fix two typos
+第1034条	Fix typo in code-cli.bat
+第1077条	Fix typo in localization key
+第1091条	Fix Typo: langauge to language
+第1104条	fix typos
+第1155条	Fix couple typos
+第1183条	fix typo
+第1284条	Fix comment typo handker -> handler
+第1318条	Fix typo in spelling of Preferences.
+第1613条	fix typo
+第1696条	Fix typo: "accepeted" => "accepted"
+第1789条	Fixes typo and occurrences of double words in comments.
+第1897条	Fixed a typo
+第1904条	Fix typo in code comment
+第1911条	typo fix
+第1915条	Fix typo in comments
+第1955条	Fixed typo in comment
+第1983条	Fix typo in README
+第1989条	fix-typo-in-comment
+第2020条	typo: Double word "in"
+第2021条	typo: Double word "not"
+第2022条	typo: Double word "of"
+第2023条	typo: Double word "and"
+第2024条	typo: Double word "for"
+第2025条	typo: Double word "Show"
+第2026条	typo: Double word "as"
+第2027条	typo: Double word "dispose"
+第2028条	typo: Double word "text"
+第2029条	typo: Double word "is"
+第2048条	Corrected typo in comments
+第2052条	fixed documentation typo: 'guardeed' -> 'guaranteed'
+第2054条	Fixed typos and a word
+第2117条	Some comment cleanup and typo fixes.
+第2247条	Fix typo in jsonSchema_v2.ts
+第2248条	Fix typo in processTaskSystem.ts
+第2280条	Fix typos in workbench.editor.labelFormat
+第2433条	Fix typo
+第2487条	[Fix a typo] s/clientWidth/clientHeight/
+第2665条	complex command typos and add dash between argument and descriptions
+第2804条	Fix typo in main.contribution.ts
+第2808条	Fix typo in taskConfiguration.ts
+第2831条	Fix typo in extensions doc.
+第2885条	Cleaning up some typos in vscode.d.ts and vscode.proposed.d.ts
+第2905条	Fix typo in workbench actions.
+第3084条	Tiny typographic change
+第3086条	Fixed isInsalled typo in source
+第3374条	typo
+第3375条	typos corrected
+第3376条	Fix typo
+第3387条	Fix typo
+第3395条	corrected typo
+第3430条	Correct "branchs" to "branches" typo
+第3470条	Fix typo
+第3485条	Fix typo in MergeDecorator class name
+第3490条	fix typo in comment
+第3672条	Fix typos that show on settings and complex command pages.
+第3770条	fix Keyboard dispatch help message typos
+第3778条	Fixed typos
+第3780条	Fixed typo
+第3789条	Fix a typo
+第3842条	Fixed a typo in the comments
+第3859条	Fix small typo
+第3919条	"Everyday" typo
+第3928条	Typos and link to vscode.d.ts ThemeColor
+第3935条	Fix a small typo in snippet.md
+第3997条	Fix typo in Markdown Preview security warning message
+第4055条	Fix Typo: langauge to language
+第4108条	Fix typo in src/vs/base/common/arrays.ts
+第4122条	Fixes typo
+第4169条	fix typo in emmet
+第4287条	fix some typos
+第4445条	Fix typo
+第4463条	Fix typo in inspectKeybindings.ts
+第4477条	#25054 Fix typo in vscode.d.ts
+第4535条	Fix child_process event name typo in nodejs typings
+第4551条	Fixed typo in terminal.contribution description
+第4593条	Fixed typo - fourth instead if forth
+第4597条	Fixed typo
+第4659条	Fixed typo in jsdoc of function tail
+第4751条	typo in chs translation
+第4794条	Some typo fixes
+第4807条	#19719 - fixed typos in TypeScript extension settings keyword descriptions
+第4831条	Typo fix
+第4854条	Small typos for new security settings
+第4933条	[Typo] Change signifikant -> significant in problem matcher
+第5022条	typography fix for better legibility
+第5052条	Fix bracket typo
+第5060条	Typo: "stage" is incorrect action because it wont do anything, "stash" is. 
+第5120条	Fix typos in commonEditorConfig.ts
+第5207条	Fix typos and consistency issues
+第5238条	Typo in project.json
+第5262条	fix typo in type definition
+第5267条	Fix spanish menu typo
+第5295条	Fixed typo in git action error
+第5349条	fix minor typo
+第5359条	Fix typo in doc
+第5471条	Fix typo
+第5510条	docs(LanguageConfiguration): fix typo (interfaces --> interface)
+第5538条	Fix typo 
+第5540条	fix 'shaddow' typo
+第5550条	docs(vscode.d.ts): fix typo ("a a" --> "a")
+第5653条	Fix a typo in Contributing.md prose
+第5808条	Fixed typo in json parser
+第5882条	[html] typos of angularjs attributes(directives)
+第5949条	Typo fixes for src/vs/workbench/parts
+第5950条	Typo fixes for src/vs/workbench/services
+第5954条	Fix typo: return value of AbstractProcess::terminate.
+第5955条	Fix typos in LineCommentCommand comments.
+第5956条	Fix typo in comment in sample tasks.json.
+第5969条	Fixed typos
+第5970条	Fixes typos in the javascript.contribution
+第6008条	Fix small typo
+第6009条	Fix typo particpate -> participate
+第6010条	Fixed Runnning typo

@@ -1,0 +1,49 @@
+第799条	Fix some VB snippets and keywords highlighting
+第831条	Add syntax highlighting for .gitmodules
+第1165条	Added syntax highlighting to CSS transition properties
+第1187条	Feature copy text when highlighting
+第1188条	Feature copy text when highlighting
+第1698条	add .vscodeignore syntax highlighting
+第2040条	Support C# in markdown preview code block syntax highlighting.
+第2778条	Limit highlighting on drag over open editors by checking if dragged item can be dropped
+第3073条	Fix C++ synatx highlighting error in macros with extern "C"
+第3601条	Adds bracket highlighting in scrollbar, fixes issue #16228
+第3686条	Revert "Fixes markdown link syntax highlighting bug"
+第3688条	Fixes markdown link syntax highlighting bug
+第3764条	Fix #36924. PowerShell Extension Comment Highlighting Error
+第3831条	Support syntax highlighting of detail section in CompletionItems
+第3896条	Fix Select-Object highlighting issue.
+第3958条	Fix word highlighting Solarized Dark theme #28343
+第4029条	Adding ractive syntax highlighting to vscode
+第4483条	Fix #24971. PowerShell Extension .bat & .exe Syntax Highlighting Error
+第4514条	Update coffeescript.tmLanguage.json, fixing highlighting for embedded js
+第4525条	fix Solarized Light theme highlighting  #24040
+第4541条	Consistent highlighting of puctuators in ts/js return types
+第4778条	Implement HLSL syntax highlighting, and use HLSL grammar to highlight Cg blocks in ShaderLab files
+第4935条	Fix Autolink Syntax Highlighting in Markdown
+第4940条	Fix markdown syntax highlighting for script or style html elements with blank lines
+第4958条	Add syntax highlighting for JS/TS template string interpolation (Monokai built-in theme)
+第5102条	Enable PHP syntax highlighting without <?php, also fix markdown + PHP code fence issues
+第5138条	Implements current line highlighting with modes 'line', 'gutter' and 'all'
+第5156条	14945 - Updates regex for CoffeeScript block comment syntax highlighting
+第5193条	Improve Markdown Syntax Highlighting of Nested Lists
+第5194条	Fix Fenced Code Syntax Highlighting in Markdown Leaking
+第5210条	Enable line highlighting for read only editors
+第5302条	Fix markdown highlighting for fenced code block close with space prefix
+第5308条	Add Syntax Highlighting for C# Fenced Code Blocks in Markdown Files
+第5323条	Fix Perl POD comment syntax highlighting
+第5332条	[jade/pug] Correct highlighting when including CSS/JS
+第5333条	[jade/pug] Correct highlighting for string with inline tags
+第5376条	Fixed: Markdown syntax highlighting to support alternative header styles
+第5617条	Fix Jade syntax highlighting issues
+第5694条	Update Dockerfile highlighting to support 'ARG'
+第5750条	Fix markdown highlighting with "C#"
+第5761条	Remove highlighting of "variable declaration" in rust highlighter
+第5811条	Fixes Markdown header highlighting rule
+第5828条	Fix md image link with no alt text highlighting
+第5829条	fix [sql] syntax highlighting error #1634
+第5910条	[css] Add syntax highlighting for additional CSS units
+第5923条	[vb] Syntax Highlighting for Roku's BrightScript Language
+第5947条	add <picture> element to HTML/CSS intellisense and syntax highlighting
+第5967条	Update HTML highlighting & IntelliSense
+第5975条	syntax highlighting for c++: 'value' keyword removed.

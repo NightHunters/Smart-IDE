@@ -1,0 +1,199 @@
+第17条	Fix git repository not detected if root folder ends in [space]
+第22条	Add support for `git-crypt`
+第23条	Add git.showCommitInput config option (#79074)
+第35条	git: Initial support for filters declared in .gitattributes
+第67条	Adding git stash drop for issue 76195
+第68条	Add option to restore commit template on every git.refresh 
+第81条	Remove trailing slash from git URL before inferring repo name
+第86条	allow `Git: fetch` command to show password prompt
+第96条	git ext. - feature git.useRawRootPath
+第99条	Show git clone progress bar and percentage complete
+第161条	Fix #38321 -- Provide navigation through git merge conflicts with codelens
+第198条	[WiP] Git: Add events to API
+第393条	Fix git branch sort order
+第402条	Update Git count badge description
+第534条	Feat. #77878 - trim git clone
+第750条	git HEAD info in tab title
+第831条	Add syntax highlighting for .gitmodules
+第869条	mark .config/git/config as properties file
+第902条	Git-UI extension for Git credentials
+第945条	Support negated .gitignore rules.
+第989条	Add abort git rebase command
+第1023条	in multiple git repositories workspace, can't view/focus changes on keypress up arrow and enter in `source control provider view`
+第1030条	Add DirtyWorkTree git error matching to git exec
+第1051条	Put current git branch name as value when renaming
+第1062条	fixes https://github.com/Microsoft/monaco-editor/issues/1353
+第1109条	Updated git branch tooltip to display full branch name instead of "checkout..."
+第1113条	Fix #72224, git extension not sending repository selection event
+第1189条	modify gitignore
+第1235条	Add flag for including tags with git pull
+第1249条	Add option to hide git sync button in status bar
+第1326条	Add an option to allow to open in new window after git initializing or cloning 
+第1327条	Git clone open new window
+第1358条	Add option to ignore file locally for git
+第1361条	refactor(extension.git): replace disposables.forEach by using utils/dispose
+第1365条	refactor(extension.git): use dispose function
+第1438条	Git prompt save only on staged
+第1454条	Add git diff terminal link handler
+第1469条	Add git.pullTags setting
+第1546条	fix: git.promptToSaveFilesBeforeCommit should not warn on unstaged files
+第1557条	add git blame api
+第1588条	Try resolve git branches beginning with '@' before replacing with symbolic full path
+第1589条	Git discard changes fails for large changesets with "ENAMETOOLONG" Fix for #65693
+第1600条	Clean user input for git clone extension
+第1601条	Clean user input for git clone extension
+第1609条	Fix microsoft/vscode-pull-request-github#612. Allow fetching with limited depths
+第1676条	Add .vscode to .gitignore
+第1678条	Git sync now publishes branch upon confirmation (#64183 issue fix)
+第1682条	Git: Support sync cancellation #59047 Issue Fix
+第1697条	Fix #63625 - Git: Add setting to disable automatic refresh
+第1710条	Add Git log, globalConfig, and tree diff API
+第1735条	Add GitErrorCode to apply command
+第1749条	Add git autopush option when committing (revisited) #62058
+第1750条	Git: Offer to clean workspace when checkout fails due to dirty working tree #59600
+第1814条	git.checkout: Create new branch using the input text in the checkout quick pick
+第1833条	Fix a git extension compile error for TS 3.2
+第1834条	Expose 'apply' and 'diff --cached' from git extension API
+第1913条	#60799: Git, support for multiple choice in delete branch command
+第1924条	[git] Expose git.pushForce in the UI
+第1975条	[WIP] git: facilitate new branch checkout with ease
+第2011条	feat: add push to git extension API
+第2036条	Add commands to be able to easily set VSCode as git editor, diff and merge tools
+第2056条	Git: Checkout to a tracked local branch instead when trying to checkout to a remote branch
+第2057条	Git clone fix to use basename
+第2083条	Fix Gitter Badge color
+第2102条	Support for remote management in git
+第2106条	Fixes Git Clone Problem with Spaces
+第2114条	git: Open File command fix on clean tree
+第2115条	Git: Separate the commit length limit of subject line and description…
+第2118条	Add entries to scm/git context menu for force pushing
+第2162条	Add APIs to git scc provider.
+第2183条	Add support for prune on git fetch
+第2206条	Add option to automatically stash changes before performing `git pull`
+第2210条	Git: Support fetch prune, closes #59693
+第2234条	Add Git:Fetch (prune)
+第2238条	Fix #59364 : Respect global .gitignore when searching
+第2279条	Add display handling of files added by git add -N
+第2285条	Return whether git.checkout succeeded
+第2292条	[git] Add command to create branch from specific ref
+第2301条	Expose SourceControl on repositories in the git extension API
+第2313条	Keep options shown in quick input & add to git's "Create new branch"
+第2413条	Git rebase detection
+第2418条	Fix #57299 - improve git rebase detection
+第2476条	Expose Git extension API
+第2481条	Add git.fetchOnSync setting
+第2508条	Use webpack for emmet and git extension
+第2530条	Allow empty git commit
+第2542条	Adding the git.showStagedChangesResourceGroup config property
+第2627条	Preserve the revealed area after using "Open File" from git-diff editor (fix #53465)
+第2748条	Add git force push
+第2779条	Adding the git.syncRebase setting
+第2786条	Updating the PR 52382 and fix for the bug Git auto refresh blinking icon bug #52037
+第2787条	Added the Config flag for the bug Git auto refresh blinking icon bug …
+第2799条	Remove inline git revert confirmation alert (Issue #43625)
+第2806条	Remove inline git revert confirmation alert (Issue #43625)
+第2822条	git: Spin sync icon on push and pull
+第2866条	Add gitignore language
+第2894条	git: fix includeIf on Windows by uppercasing drive letter (#40354)
+第2903条	[WIP] git: Detect conflict markets in BOTH_ADDED files when staging
+第2960条	Fixes #48714: Added conversion from local case of the file to git case
+第2977条	Await git.pullFrom and gitt.pushTo to ensure any failures display an …
+第3104条	#46860 make git delete popup modal
+第3157条	Restore focus on message field when git include multiple projects.
+第3197条	Git merge / commit -a / focus back the integrated terminal
+第3219条	Show warning when git commit input box only contains whitespaces
+第3260条	added from https://github.com/jashkenas/coffee-script-tmbundle.git
+第3262条	Ask to add known huge folders to .gitignore, fixes #44304
+第3297条	Remove git revert message as the action can be achieves by pressing C…
+第3317条	enclose git option (revision name) in apostrophes
+第3384条	handle all Uris in git.openFile
+第3473条	Fix hr in github issues
+第3580条	Fix #39867 fix git popStash type check
+第3596条	Support current user install of Git Bash
+第3628条	Show branches list in "git pull from"
+第3629条	Modify hygiene pre-commit checks for users with git autocrlf set
+第3673条	Git branches sorted by committerdate, latest first.
+第3692条	Git: checkIgnore Promise/resolve bug Fixes: #38169
+第3699条	Adding 'git.openWithDiffEditor' preference setting.
+第3723条	Enable strict compile mode in the git extension
+第3756条	git: Sort RepositoryPicks to rank active repo first
+第3761条	git: Throw fetch error
+第3762条	git: Include GitErrorData in GitError.toString
+第3809条	Git - Ask to publish branch if there is no upstream
+第3814条	Git submodules support.
+第3818条	Added support for selecting all files in git list
+第3826条	Added setting "git.autoRepositoryDetection"
+第3829条	Added setting "git.autoRepositoryDetection" #35555
+第3834条	disable lookup for GitHub's version of Git
+第3846条	Git - fix  `there are no changes to stash` message issue 
+第3895条	Fixed issue of Illegal git value for `line`
+第3901条	Add support for Git Stash (Include Untracked)
+第3940条	feat(git): allow url to be given to git.clone
+第3955条	Can no longer open image files from the git viewlet
+第4043条	Add Rename Branch to Git Extension
+第4049条	Allow user to cancel cloning a git repo #30057 - WIP
+第4082条	Displaying Repository URL (Git Link) on Extensions Page.
+第4089条	Git Extension: Expose APIs for external extensions
+第4157条	Fix 30162: add to .git ignore doesn't add new line
+第4163条	Show git clone progress in status bar and source control feed
+第4185条	Feature 29241: Add option to disable git indicators in gutter
+第4200条	Add `Git: Pull From` command
+第4204条	Add Git commit amend commands
+第4206条	Add git.autofetchPrune option for enabling --prune
+第4208条	#23797 git manage ignore files
+第4219条	Add git stashing
+第4235条	Use .gitattributes to remove user configuration influence
+第4328条	Update theme-seti icon theme to use Git logo for Git file types
+第4351条	[#25575] Add Git Tag feature.
+第4353条	Add "pullFrom" git command
+第4355条	Git: Pull from specific branch adds feature to #26738
+第4378条	Add .git/subtree-cache/ to files.watcherExclude
+第4381条	Open old version of file in Git side bar.
+第4399条	"Git:Publish" to "Git:Publish Branch" #26133
+第4415条	Show ahead/behind indicator while git syncing
+第4421条	Add git delete branch command
+第4424条	Add git.commitType configuration
+第4436条	#10542 Ability to merge local git branches
+第4437条	WIP: 23797 git manage ignore files
+第4485条	added config option git.cloneDirectory, defaulting to os.homedir()
+第4491条	Added support for encodings for Git.
+第4502条	Adding 'never show again' in Git Extension
+第4508条	Changed git renamed icon to orange color
+第4715条	Added "Git: Pull (Rebase)" to workspace actions.
+第4733条	upgrade telemetry package used by git extension
+第4792条	git clone nvm with --depth 1, to make clone faster
+第4900条	Default folder setting while cloning a git repository
+第4963条	Fix #15343 - Add `git commit --amend`
+第4973条	Added github icon mapping for gitmodules file
+第4981条	Fix #16100 - Add `Git: Pull From` action
+第4992条	Add Branch name title to Git Widget
+第5040条	Option to exclude items from Git branch checkout list #13506
+第5108条	Default for git.autofetch should be set to false to prevent blacklisting
+第5116条	Provisional SCM API & git extension
+第5137条	Handle binary files git preview
+第5183条	Added gitter chat badge to readme
+第5248条	Git sync info
+第5251条	Enable git.confirmSync by default (fixes #8655)
+第5283条	Fix #1939 - Show tag name instead of commit in GitStatusbar
+第5295条	Fixed typo in git action error
+第5300条	Minor case change in README Github -> GitHub in README
+第5313条	Git quick open should correct invalid branch names
+第5315条	Use git icon instead of GitHub for .git* files
+第5389条	Only 'git fetch' if there is a remote repository available
+第5409条	add gitignore for .vscode folder
+第5415条	Git: Ignore untracked files in change count badge
+第5416条	Git commit using '--signoff'
+第5475条	Folding icon collides with git decorations: Create a div per linedecoration
+第5492条	Git Commit.Template, Restore Previous Commit Msg On Undo
+第5522条	Git status representation in the explorer viewlet implemented
+第5568条	Git blame support
+第5710条	#78 gitignored files not displayed on explorer view by default
+第5752条	[themes] Add styles to git commit changed, deleted, inserted
+第5760条	add the `extensions` folder to gitignore to prevent accidental commits
+第5764条	vscode gitignore updated. Added typings directory.
+第5813条	Fixed a bug where action-items in git-viewlet changes-view was vertic…
+第5825条	Allow Code to be launched straight from Git Bash on Windows
+第5942条	Scoped git services
+第5943条	Scoped git services
+第5984条	Use auth tokens for downloading omnisharp builds from GitHub
+第5991条	Use default cursor for .git-statusbar-item

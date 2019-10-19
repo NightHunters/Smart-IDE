@@ -1,0 +1,42 @@
+第145条	Store translation paths relative to the extensions directory
+第1984条	Adding PT/BR translation to the CONTRIBUTING.md file
+第2010条	 pt-br translation for the README file 
+第2060条	Translation of default README to PT-BR
+第2272条	Settings: Fix shortcutkey label enabling translation. Fixes #59147
+第2852条	2018-06-06. Merged in translations from Transifex.
+第2861条	2018-06-05. Merged in translations from Transifex.
+第2896条	Use translations from manifest to prompt to install lang pack
+第2922条	Modify incorrect translation: "제한" -> "제안" in korean
+第2985条	2018-05-02. Merged in translations from Transifex.
+第2994条	2018-04-30. Merged in translations from Transifex.
+第3009条	i18N: Fix,Change and union the Chinese translations in different files
+第3227条	2018-03-06. Merged in translations from Transifex.
+第3319条	translation to indonesian 
+第3345条	partial translation to indonesia [1132 words]
+第3346条	translation to indonesia
+第3347条	partial translation to indonesia
+第3348条	partial translation to indonesian 
+第3357条	2018-02-06. Merged in translations from Transifex.
+第3556条	2017-12-12. Merged in translations from Transifex.
+第3687条	Fixed cht translation for Node.js in about dialog
+第3853条	2017-10-04. Merged in German translations from Transifex.
+第3854条	Revert "2017-10-03. Merged in translations from Transifex."
+第3857条	2017-10-03. Merged in translations from Transifex.
+第3954条	2017-09-05. Merged in translations from Transifex.
+第3968条	Fix unnatural machine-generated Japanese translation of "n of m" in the text-search box
+第3983条	fix over-translation names
+第4092条	Update Translation & Delete useless file
+第4649条	Fix spanish translation
+第4751条	typo in chs translation
+第4857条	Updated i18n translation
+第4932条	Fixes bad translation
+第5169条	Context error in translation
+第5175条	Add Translation Memory eXchange (TMX) support
+第5286条	Fix translation format code action
+第5314条	Fix Chinese(Simplified) message translation
+第5625条	Fix Korean translation
+第5628条	Fix German Translation of "Tabs"
+第5675条	Make chs translation more accutrate and comprehensive
+第5684条	"コードの書式設定" is translation error.
+第5707条	correct german translation for "warning" message label
+第5729条	Fixed wrong values in german translation
