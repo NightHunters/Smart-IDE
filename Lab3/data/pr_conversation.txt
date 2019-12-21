@@ -1,0 +1,210 @@
+Contributor
+skprabhanjan commented on 23 Apr
+@rebornix and @isidorn , Here is the implementation of the showing only inline values of visible viewport to fix #72370.
+Added two new functions , tokenizeCompleteDocument which will tokenize the complete document as per the same old behaviour , tokenizeViewPort which will only tokenize the visible viewport.
+Used these two functions in getWordToPositionsMap as suggested.
+Please review this and let me know if there is anything that needs to be changed :)
+
+fix-72370 Added tokenizing visible viewport logic
+f18d4e2
+
+jrieken assigned isidorn on 23 Apr
+
+Contributor
+isidorn commented on 25 Apr
+Thanks for your PR. However currently we are wrapping our release which means we only take in a limited set of changes.
+Due to that I am assigning this PR to may and I will review it next week.
+Did you test this out? Is it possible to write some unit tests for this?
+Why is the method tokenizeWholeDocument still needed? I thought we would only tokenize the viewport for optimization.
+
+isidorn added this to the May 2019 milestone on 25 Apr
+
+Contributor
+Author
+skprabhanjan commented on 26 Apr
+@isidorn , That totally works if we push this to may release :)
+Also I have done some tests but yet to write unit tests , I will make sure to write that by the time you review it :)
+And for the tokenizeWholeDocument function , as per what @rebornix suggested i guess that is how i understood it ( Added it below for ref) . Please let me know if we need to change something there ? (Link to the comment)
+Secondly, listen to scrolling event. If the whole viewport is already tokenized by checking model.isCheapToTokenize(lastLineNumer), if so then we generate tokens for the whole document, otherwise we go back to the first step.
+
+isidorn requested a review from rebornix on 26 Apr
+
+Contributor
+isidorn commented on 26 Apr
+Adding @rebornix also a reviewer since it is his idea after all.
+
+Contributor
+Author
+skprabhanjan commented on 20 May
+@isidorn , @rebornix
+Sorry , Did you get a chance to review this ?
+
+rebornix reviewed on 22 May
+View changes
+src/vs/workbench/contrib/debug/browser/debugEditorContribution.ts
+Show resolved
+
+rebornix requested changes on 22 May
+View changes
+Member
+rebornix left a comment
+The code looks good to me in overall, only one comment for reusing the code instead of duplication.
+
+fix-72370 reusing the code by adding tokenizeRange()
+0d0103a
+
+Contributor
+Author
+skprabhanjan commented on 22 May •
+edited
+@rebornix , Added a new function called tokenizeRange with the following signature
+private tokenizeRange(model: ITextModel, start: number, end: number, isCompleteDocument?: boolean) , which is reused in tokenizeViewPort and tokenizeCompleteDocument
+Please let me know if this is good now ?
+Thanks :)
+
+rebornix approved these changes on 23 May
+View changes
+Member
+rebornix left a comment
+LGTM, thanks! Leave it for @isidorn for his review and final merge.
+
+Contributor
+isidorn commented on 23 May
+@rebornix Thanks for reviewing.
+@skprabhanjan I will review this in the next 10 days. Thanks
+
+Contributor
+Author
+skprabhanjan commented on 23 May
+@rebornix , Thanks for the review.
+@isidorn , Sure that works :)
+
+isidorn requested changes on 24 May
+View changes
+src/vs/workbench/contrib/debug/browser/debugEditorContribution.ts
+Outdated
+Show resolved
+src/vs/workbench/contrib/debug/browser/debugEditorContribution.ts
+Outdated
+Show resolved
+src/vs/workbench/contrib/debug/browser/debugEditorContribution.ts
+Outdated
+Show resolved
+src/vs/workbench/contrib/debug/browser/debugEditorContribution.ts Outdated
+      }
+   this.editor.onDidScrollChange(() => {
+    this.editor.getVisibleRanges().forEach(visibleRange => {
+     if (model.isCheapToTokenize(visibleRange.endLineNumber)) {
+isidorn on 24 May Contributor
+This logic seems flawd to me. So if a end of the range is cheap to tokenize we will tokenize the whole document?!
+IMHO we need a check to see if the whole model is cheap to tokenize, and if yes we tokenize the whole thing. If not always tokenize the viewport. @rebornix would know better if something like that exists
+Also if you tokenize the complete document there is no longer a need to listen on the scroll change event. I would just dispoe of the listener in that case.
+rebornix on 28 May Member
+I thought about it again and realized that I didn't do a detailed explaination for the tokenization idea, sorry for that.
+The reason that we can use isCheapToTokenize to reduce the time is there are always tokens generated for the viewport (introduced by Alex's recent changes). Whenever we open a file, scroll to some pages, we will tokenize the viewport based on some heuristics. It doesn't mean they are 100% correct, but almost. So if the viewport is cheap to tokenize, then we force tokenize them. If not, we don't do anything, just read the tokens by getLineTokens.
+isCheapToTokenize is false in following two major cases
+if the previous line of a position is not tokenized or invalid (for example, it has dirty changes)
+if current line is really long
+So say you debug into a new file, the editor tokenizes the viewport internally (99.9% correct), and then start a full document tokenization in the background. If now you ask the editor if the viewport is cheap to tokenize or not, it depends on how fast the background tokenization runs.
+Since we are only fetching word information here, there are fewer chances that the tokens are siganificantly wrong. I'd like to propose
+Check if the visibleRange.startLineNumber is easy to tokenize or not
+If so, tokenize the viewport only. (We don't need to tokenizeCompleteDocument as there is already a background job for that)
+If not, just read the tokens, they are very unlikely to be wrong, for word information
+
+Contributor
+isidorn commented on 24 May •
+edited
+@skprabhanjan Thanks again for this PR, this is good stuff.
+I have reviewd it and added comments in the code. Can you please address them. Also @rebornix can jump in for the tokenize optimasation question I have.
+Also did you verify that this PR fixes #72370
+
+fix-72370 Added review #1 changes
+0b750c9
+
+Contributor
+Author
+skprabhanjan commented on 27 May
+@isidorn , Added changes as per your review expect the last one as this was the approach suggested by @rebornix and he would be more closer to answering that part , I will do the changes if required and even i will check on the lines you told (logic wise) :)
+And regarding if i verified the fix , I was able to understand why this fix is required and what it is changing but I am facing similar thing when I try to reproduce it
+
+Contributor
+isidorn commented on 27 May
+@skprabhanjan ok, so let's wait for @rebornix feedback
+As for facing the similar thing when you try to reproduce. So it seems like this PR actually does not fix the issue if I understand you correctly? This makes me less motivated to merge this in...
+
+isidorn modified the milestones: May 2019, On Deck on 27 May
+
+Contributor
+Author
+skprabhanjan commented on 27 May
+@isidorn , yes lets wait for @rebornix feedback and also let us check what he feels about the reproducing of the issue . I think he suggested to fix this in general for better optimization of the current process keeping in mind the tokenization overhead he mentioned here
+
+Member
+rebornix commented on 28 May
+I put my idea in #72747 (comment) and my proposal will lead to some large code change, so let's merge this after current release and have it in Insiders early next release.
+
+Contributor
+Author
+skprabhanjan commented on 28 May
+@rebornix , That explanation pretty much made almost everything clear to me , Thanks :)
+So just wanted to know the steps forward here , should I change this PR to house the new logic you suggested or this stays the same way and then later we take up the changes in a new issue maybe?
+CC : @isidorn , Please suggest :)
+
+Contributor
+isidorn commented on 28 May
+@rebornix thanks a lot for a deeper explanation. It makes more sense now.
+@skprabhanjan let's keep working on this PR if that is ok for ou. Once you have the changes ready let me know and we can merge some time in the next milestone. Our goal should be that the PR actually fixed the issue #72370. Thank you.
+👍 1
+
+fix-72370 Removed tokenizeCompleteDocument and changed as per review … …
+81420ef
+
+Contributor
+Author
+skprabhanjan commented on 28 May •
+edited
+@rebornix , I have changed the code as per your comments.
+I have added this.tokenizeRange call outside isCheapToTokenize check , that is what I understood when you said
+If not, just read the tokens, they are very unlikely to be wrong, for word information
+Sorry , can you review it again and let me know if it needs any changes ?
+CC : @isidorn
+
+Contributor
+isidorn commented on 28 May
+I plan to review this next week.
+Thus assigning to June milestone
+
+isidorn removed this from the On Deck milestone on 28 May
+
+isidorn added this to the June 2019 milestone on 28 May
+
+Contributor
+Author
+skprabhanjan commented on 28 May
+@isidorn, thanks :)
+
+isidorn modified the milestones: June 2019, On Deck on 5 Jun
+
+Contributor
+Author
+skprabhanjan commented on 24 Jun
+@isidorn , is the review done for this PR ?
+CC : @rebornix
+
+Contributor
+isidorn commented on 24 Jun
+I have looked into this PR and decided not to merge it yet. Reasons being:
+I believe the logic is still not clear, since you tokenizeViewport and than tokenizeRange. Even though those operations seem to be overlaping. There might be more flows in the logic.
+I think you have followed the @rebornix instructions without having an overall understanding of the solution, which lead us to a complex approach
+I might be wrong in which case I appologize, but I am still not convinced with this PR, and also not convinced we need it since no other user encountered this in 3 months.
+
+Contributor
+Author
+skprabhanjan commented on 25 Jun
+@isidorn , That makes sense to me and thanks for the review :)
+No problems from my side , I will close this PR but ready to work on it and change it if required :)
+@rebornix , Thanks :)
+👍 1
+
+skprabhanjan closed this on 25 Jun
+
